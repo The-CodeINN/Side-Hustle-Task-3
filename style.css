@@ -9,7 +9,7 @@ body{
     font-family: 'PT Serif',serif;
     font-weight: normal;
     font-size: 15px;
-    background: url("./images/pic.jpg");
+    background: url("./images/pic-1.jpg");
 
     height: 20px;
 }
@@ -39,9 +39,8 @@ body{
 }
 
 #display{
-    font-size: 250px;
+    font-size: 200px;
     color: #008000;
-    margin-top: -50px;
 }
 
 button{
@@ -68,8 +67,15 @@ button{
 
 }
 
+.btn{
+    margin-top: 20px;
+}
+
 .btn-grad {
     background-image: linear-gradient(to right, #0d2c54 0%, #0d2c54 51%, #232526 100%);
+
+    margin-top: 10px;
+
 }
 
 .btn-grad:hover {

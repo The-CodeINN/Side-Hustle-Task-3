@@ -7,15 +7,16 @@ let integer;
 integer = 0;
 
 add.addEventListener('click', function(){
-  int.innerHTML = integer;
   if(integer < 50){
     integer += 1;
+    int.innerHTML = integer;
+
   }
 });
 
 remove.addEventListener('click', function(){
-  int.innerHTML = integer;
   if(integer > 0){
     integer -= 1;
+      int.innerHTML = integer;
   }
 });
