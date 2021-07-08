@@ -4,14 +4,18 @@ let remove = document.getElementById('decrement');
 let int = document.getElementById('display');
 let integer;
 
-integer =0;
+integer = 0;
 
 add.addEventListener('click', function(){
-  integer += 1;
   int.innerHTML = integer;
+  if(integer < 50){
+    integer += 1;
+  }
 });
 
 remove.addEventListener('click', function(){
-  integer -= 1;
   int.innerHTML = integer;
+  if(integer > 0){
+    integer - = 1;
+  }
 });
