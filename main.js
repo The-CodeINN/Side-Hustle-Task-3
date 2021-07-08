@@ -16,6 +16,6 @@ add.addEventListener('click', function(){
 remove.addEventListener('click', function(){
   int.innerHTML = integer;
   if(integer > 0){
-    integer - = 1;
+    integer -= 1;
   }
 });
