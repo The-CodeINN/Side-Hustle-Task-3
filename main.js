@@ -1,6 +1,17 @@
-var button = document.getElementById('display'),
-  count = 0;
-button.onclick = function() {
-  count += 1;
-  button.innerHTML = count;
-};
+let add = document.getElementById('increment');
+let remove = document.getElementById('decrement');
+
+let int = document.getElementById('display');
+let integer;
+
+integer =0;
+
+add.addEventListener('click', function(){
+  integer += 1;
+  int.innerHTML = integer;
+});
+
+remove.addEventListener('click', function(){
+  integer -= 1;
+  int.innerHTML = integer;
+});
